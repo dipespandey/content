@@ -1,0 +1,247 @@
+{"intents": [
+        {"tag": "start_conversation",
+         "patterns": ["Hi there", "Is anyone there?","Hey","Hola", "Hello", "Good day","Hi"],
+         "responses": ["Hello there, I'm NTNU bot. How can I help you?", "Hi, happy to have you here! What can I help you with?", "Hi, good to see you! How can I help?", "Hi there, how can I be of service?"],
+         "context": [""]
+        },
+        {"tag": "jokes",
+         "patterns": ["Can you tell me a joke?", "What jokes do you know?","Any jokes?","Can you make me laugh?", "Can you say something funny?"],
+         "responses": ["My Norwegian friend sent me a program he created......call that Norse code.", "A Norwegian goes to the psychiatrist\nWhat brings you in today?\nI've just been so depressed. I wish I was never Björn", "Why did the Norwegian sell her boat?\nShe couldn't a-fjord it!", "How do scientists keep their breath fresh? Experi-mints.", "Why should you not trust a statistics teacher? They are always trying to plot something."],
+         "context": [""]
+        },
+        {"tag": "identity",
+         "patterns": ["Who are you?", "What are you?","Who made you?","Why are you?"],
+         "responses": ["I'm NTNU bot I was built to help potential applicats choose their study program.", "I'm a chat bot built by students to help potential students", "Thought you would never ask. I'm NTNU bot here to help you make your study program choice.", "You ever heard of Siri or Google Assistant? I'm a downgraded version of them that can help you make your study program choice here at NTNU."],
+         "context": [""]
+        },
+        {"tag": "condition",
+         "patterns": ["How are you?", "How do you do?","How are you doing?"],
+         "responses": ["I'm doing great! Thank you for asking, hope everything is fine on your end!", "I'm a bit rusty but I can be of help. Hope you're also doing well!", "Thaught you would never ask. I'm NTNU bot here to help you make your study program choice."],
+         "context": [""]
+        },
+        {"tag": "enrollment",
+        "patterns": ["Can I contact someone?", "Who can I reach out to?","Contact", "Who can I contact?"],
+        "responses": ["Here are your contact points: \n Addmission Office: addmissions@ntnu.no \n International Office: joakim@ntnu.no"],
+        "context": [""]
+        },
+        {"tag": "options",
+        "patterns": ["How can you help me?", "What can you do?", "What help you provide?", "How can you be helpful?", "What support do you offered","What do you know?","what help?","What are you about?"],
+        "responses": ["I can help you find the master program you are looking for."],
+        "context": [""]
+        },
+        {"tag": "english_programs",
+        "patterns": ["Does NTNU offer any programs in English?", "Are there any English programs?","Is there a program taught in english?", "What are the programs taught in english?"],
+        "responses": [{"program": "all", "language": "english"}],
+        "context": [""]
+        },
+        {"tag": "all_programs",
+        "patterns": ["What are the available programs at NTNU", "What programs are available?","all programs", "What are the other programs offered at NTNU?", "What courses are available?", "Available courses?"],
+        "responses": [{"program": "all"}],
+        "context": [""]
+        },
+        {"tag": "computer_programs",
+        "patterns": ["Does NTNU offer any programs in computer science?", "Are there any computer science programs?","Is there an iformation technology department?", "What about iformation tech?"],
+        "responses": [{"program": "all","category": "Computer science"}],
+        "context": [""]
+        },
+        {"tag": "design_programs",
+        "patterns": ["Does NTNU offer any programs in Design?", "Are there any Design programs?","Is there an design department?", "What about design?"],
+        "responses": [{"program": "all", "category": "design"}],
+        "context": [""]
+        },
+        {"tag": "medical_programs",
+        "patterns": ["Does NTNU offer any programs in medicine?", "Are there any medicine programs?","Is there an medical department?", "What about medicine?"],
+        "responses": [{"program": "all", "category": "medical"}],
+        "context": [""]
+        },
+        {"tag": "engineering_programs",
+        "patterns": ["Does NTNU offer any programs in Engineering?","Does NTNU offer any programs in Civil Engineering?", "Does NTNU offer any programs in Mnufacturing?", "Are there any Engineering programs?","Is there an engineering department?", "What about engineering?"],
+        "responses": [{"program": "all", "category": "engineering"}],
+        "context": [""]
+        },
+	{"tag": "msuma_requirements",
+         "patterns": ["What are the requirements for Sustainable Manufacturing?", "What are the requirements for Masters in Sustainable Manufacturing?", "What are the requirements for MSUMA?", "MSUMA requirments?","What do I need to apply for MSUMA?", "Sustainable Manufacturing?", "Masters in  Sustainable Manufacturing?"],
+         "responses": [{"program": "MSUMA", "class": "requirements"}],
+         "context": [""]
+        },
+	{"tag": "mibygg_requirements",
+         "patterns": ["What are the requirements for Civil and Environmental Engineering?", "What are the requirements for Masters in Civil and Environmental Engineering?", "What are the requirements for Civil and Environmental Engineering?", "Civil and Environmental Engineering requirments?","What do I need to apply for Civil and Environmental Engineering?", "Civil and Environmental Engineering?","MIBYGG requirements?", "Masters in Civil and Environmental Engineering?"],
+         "responses": [{"program": "MIBYGG", "class": "requirements"}],
+         "context": [""]
+        },
+	{"tag": "mklisp_requirements",
+         "patterns": ["What are the requirements for Clinical Nursing?", "What are the requirements for Masters in Clinical Nursing?", "What are the requirements for Clinical Nursing?", "Clinical Nursing requirments?","What do I need to apply for Clinical Nursing?", "Clinical Nursing?", "MKLISP requirements?", "Masters in  Clinical Nursing?"],
+         "responses": [{"program": "MKLISP", "class": "requirements"}],
+         "context": [""]
+        },
+	{"tag": "macs_requirements",
+         "patterns": ["What are the requirements for Applied Computer Science?", "What are the requirements for Computer Science?", "What are the requirements for MACS?", "MACS requirments?","What do I need to apply for MACS?", "MACS?", "Masters in applied computer science?"],
+         "responses": [{"program": "MACS", "class": "requirements"}],
+         "context": [""]
+        },
+	{"tag": "cosi_requirements",
+         "patterns": ["What are the requirements for Color SCience?", "What are the requirements for Masters in Color Science?", "What are the requirements for COSI?", "COSI requirments?","What do I need to apply for COSI?", "COSI?", "Masters in Color science?"],
+         "responses": [{"program": "COSI", "class": "requirements"}],
+         "context": [""]
+        },
+	{"tag": "mis_requirements",
+         "patterns": ["What are the requirements for Information security?", "What are the requirements for masters in information security?", "What are the requirements for MIS?", "MIS requirments?","What do I need to apply for MIS?", "What do I need to apply for information security?", "MIS?", "Masters in information security?"],
+         "responses": [{"program": "MIS", "class": "requirements"}],    
+         "context": [""]
+        },
+	{"tag": "miseb_requirements",
+         "patterns": ["What are the requirements for Information security Experience Based?", "What are the requirements for masters in information security Experience Based?", "What are the requirements for MISEB?", "MISEB requirments?","What do I need to apply for MISEB?", "What do I need to apply for information security Experience Based?", "MISEDB?", "Masters in information security Experience Based?"],
+         "responses": [{"program": "MISEB", "class": "requirements"}],    
+         "context": [""]
+        },
+	{"tag": "miids_requirements",
+         "patterns": ["What are the requirements for Industrial Innovation and Digital Security?", "What are the requirements for masters in Industrial Innovation and Digital Security?", "What are the requirements for MIIDS?", "MIIDS requirments?","What do I need to apply for MIIDS?", "What do I need to apply for Industrial Innovation and Digital Security?", "MIIDS?", "Masters in Industrial Innovation and Digital Security?"],
+         "responses": [{"program": "MIIDS", "class": "requirements"}],    
+         "context": [""]
+        },
+	{"tag": "mixd_requirements",
+         "patterns": ["What are the requirements for Interaction Design?", "What are the requirements for masters in interaction design?", "What are the requirements for mixd?", "mixd requirments?","What do I need to apply for mixd?", "What do I need to apply for interaction design?", "mixd?", "Masters in interaction design?"],
+         "responses": [{"program": "MIXD", "class": "requirements"}],    
+         "context": [""]
+        },
+        {"tag": "macs_grade",
+         "patterns": ["What is the minimum grade for computer science?", "What is the required grade for Computer Science?", "What is the required grade for Masters in Applied Computer Science?", "What grades do I need for MACS?", "What grades do I need for applied computer science?", "MACS grade requirment?","What grades do I need to apply for MACS?", "MACS grade?", "Masters in applied computer science grade?"],
+         "responses": [{"program": "MACS", "class": "requirements", "field": "grade"}],
+         "context": [""]
+        },
+        {"tag": "msuma_grade",
+         "patterns": ["What is the minimum grade for Sustainable Manufacturing?", "What is the required grade for Sustainable Manufacturing?", "What is the required grade for Masters in Sustainable Manufacturing?", "What grades do I need for MSUMA?", "What grades do I need for Sustainable Manufacturing?", "MSUMA grade requirment?","What grades do I need to apply for MSUMA?", "MSUMA grade?", "Masters in Sustainable Manufacturing grade?"],
+         "responses": [{"program": "MSUMA", "class": "requirements", "field": "grade"}],
+         "context": [""]
+        },
+        {"tag": "cosi_grade",
+         "patterns": ["What is the minimum grade for color science?", "What is the required grade for color Science?", "What is the required grade for Masters in color Science?", "What grades do I need for cosi?", "What grades do I need for colors science?", "cosi grade requirment?","What grades do I need to apply for cosi?", "cosi grade?", "Masters in color science grade?"],
+         "responses": [{"program": "COSI", "class": "requirements", "field": "grade"}],
+         "context": [""]
+        },
+        {"tag": "mis_grade",
+         "patterns": ["What is the minimum grade for information security?", "What is the required grade for information security?", "What is the required grade for Masters in information security?", "What grades do I need for mis?", "What grades do I need for information security?", "mis grade requirment?","What grades do I need to apply for mis?", "mis grade?", "Masters in information security grade?"],
+         "responses": [{"program": "MIS", "class": "requirements", "field": "grade"}],
+         "context": [""]
+        },
+        {"tag": "miids_grade",
+         "patterns": ["What is the minimum grade for Industrial Innovation and Digital Security?", "What is the required grade for Industrial Innovation and Digital Security?", "What is the required grade for Masters in Industrial Innovation and Digital Security?", "What grades do I need for Industrial Innovation and Digital Security?", "What grades do I need for Industrial Innovation and Digital Security?", "Industrial Innovation and Digital Security grade requirment?","What grades do I need to apply for Industrial Innovation and Digital Security?", "Industrial Innovation and Digital Security grade?", "Masters in Industrial Innovation and Digital Security grade?"],
+         "responses": [{"program": "MIIDS", "class": "requirements", "field": "grade"}],
+         "context": [""]
+        },
+        {"tag": "miseb_grade",
+         "patterns": ["What is the minimum grade for information security experience based?", "What is the required grade for information security experience based?", "What is the required grade for Masters in information security experience based?", "What grades do I need for miseb?", "What grades do I need for information security experience based?", "miseb grade requirment?","What grades do I need to apply for miseb?", "miseb grade?", "Masters in information security experience based grade?"],
+         "responses": [{"program": "MISEB", "class": "requirements", "field": "grade"}],
+         "context": [""]
+        },
+        {"tag": "mixd_grade",
+         "patterns": ["What is the minimum grade for interaction design?", "What is the required grade for interaction design?", "What is the required grade for Masters in interaction design?", "What grades do I need for mixd?", "What grades do I need for interaction design?", "mixd grade requirment?","What grades do I need to apply for mixd?", "mixd grade?", "Masters in interaction design grade?"],
+         "responses": [{"program": "MIXD", "class": "requirements", "field": "grade"}],
+         "context": [""]
+        },
+        {"tag": "mklisp_grade",
+         "patterns": ["What is the minimum grade for Clinical Nursing?", "What is the required grade for Clinical Nursing?", "What is the required grade for Masters in Clinical Nursing?", "What grades do I need for mklisp?", "What grades do I need for Clinical Nursing?", "mklisp grade requirment?","What grades do I need to apply for mklisp?", "mis grade?", "Masters in Clinical Nursing grade?"],
+         "responses": [{"program": "MKLISP", "class": "requirements", "field": "grade"}],
+         "context": [""]
+        },
+        {"tag": "macs_link",
+        "patterns": ["How can I apply for computer science","Can you give me the application link for computer science","Where can I apply for computer science", "How sould I apply for applied computer science", "How do I apply for computer science"], 
+        "responses": [{"program": "MACS", "class": "requirements", "field": "application_link"}],
+        "context": [""]
+        },
+        {"tag": "msuma_link",
+        "patterns": ["How can I apply for sustainable manufacturing","Can you give me the application link for sustainable manufacturing","Where can I apply for sustainable manufacturing", "How sould I apply for sustainable manufacturing", "How do I apply for sustainable manufacturing"],
+        "responses": [{"program": "MSUMA", "class": "requirements", "field": "application_link"}],
+        "context": [""]
+        },
+        {"tag": "cosi_link",
+        "patterns": ["How can I apply for color science","Can you give me the application link for color science","Where can I apply for color science", "How sould I apply for color science", "How do I apply for color science"],
+        "responses": [{"program": "COSI", "class": "requirements", "field": "application_link"}],
+        "context": [""]
+        },
+        {"tag": "mis_link",
+        "patterns": ["How can I apply for information security","Can you give me the application link for information security","Where can I apply for information security", "How sould I apply for information security", "How do I apply for information security"],
+        "responses": [{"program": "MIS", "class": "requirements", "field": "application_link"}],
+        "context": [""]
+        },
+        {"tag": "miids_link",
+        "patterns": ["How can I apply for Industrial Innovation and Digital Security","Can you give me the application link for Industrial Innovation and Digital Security","Where can I apply for Industrial Innovation and Digital Security", "How sould I apply for Industrial Innovation and Digital Security", "How do I apply for Industrial Innovation and Digital Security"], 
+        "responses": [{"program": "MIIDS", "class": "requirements", "field": "application_link"}],
+        "context": [""]
+        },
+        {"tag": "miseb_link",
+        "patterns": ["How can I apply for information security experience based","Can you give me the application link for information security experience based","Where can I apply for information security experience based", "How sould I apply for information security experience based", "How do I apply for information security experience based"],
+        "responses": [{"program": "MISEB", "class": "requirements", "field": "application_link"}],
+        "context": [""]
+        },
+        {"tag": "mixd_link",
+        "patterns": ["How can I apply for interaction design","Can you give me the application link for interaction design","Where can I apply for interaction design", "How sould I apply for interaction design", "How do I apply for interaction design"],
+        "responses": [{"program": "MIXD", "class": "requirements", "field": "application_link"}],
+        "context": [""]
+        },
+        {"tag": "mklisp_link",
+        "patterns": ["How can I apply for ","Can you give me the application link for Clinical Nursing","Where can I apply for Clinical Nursing", "How sould I apply for Clinical Nursing", "How do I apply for Clinical Nursing"],
+        "responses": [{"program": "MKLISP", "class": "requirements", "field": "application_link"}],
+        "context": [""]
+        },
+        {"tag": "macs_language",
+        "patterns": ["what are the language requirements for macs", "What is the minimum language requirement for computer science?", "What is the required language proficiency for Computer Science?", "What is the required language proficiency for Masters in Applied Computer Science?", "What language level do I need for MACS?", "What language level do I need for applied computer science?", "MACS language requirment?","What language do I need to apply for MACS?", "MACS language?", "Masters in applied computer science language?, 'what are the language requirements for computer science"],
+        "responses": [{"program": "MACS", "class": "requirements", "field": "language"}],
+        "context": [""]
+        },
+        {"tag": "msuma_language",
+        "patterns": ["what are the language requirements for sustainabl manufacturing", "what are the language requirements for MSUMA", "What is the minimum language requirement for Sustainable Manufacturing?", "What is the required language proficiency for Sustainable Manufacturing?", "What is the required language proficiency for Masters in Sustainable Manufacturing?", "What language level do I need for MACS?", "What language level do I need for Sustainable Manufacturing?", "MACS language requirment?","What language do I need to apply for MACS?", "MACS language?",  "Masters in Sustainable Manufacturing language?"],
+        "responses": [{"program": "MSUMA", "class": "requirements", "field": "language"}],
+        "context": [""]
+        },
+        {"tag": "cosi_language",
+        "patterns": ["what are the language requirements for color science", "what are the language requirements for COSI", "What is the minimum language requirement for color science?", "What is the required language proficiency for color Science?", "What is the required language proficiency for Masters in color Science?", "What language level do I need for cosi?", "What language level do I need for computer science?", "cosi language requirment?","What language do I need to apply for cosi?", "cosi language?", "Masters in color science language?"],
+        "responses": [{"program": "COSI", "class": "requirements", "field": "language"}],
+        "context": [""]
+        },
+        {"tag": "mis_language",
+        "patterns": ["what are the language requirements for information security", "what are the language requirements for mis", "What is the minimum language requirement for information security?", "What is the required language proficiency for information security?", "What is the required language proficiency for Masters in information security?", "What language level do I need for mis?", "What language level do I need for information security?", "mis language requirment?","What language do I need to apply for mis?", "mis language?", "Masters in information security language?"],
+        "responses": [{"program": "MIS", "class": "requirements", "field": "language"}],
+        "context": [""]
+        },
+        {"tag": "miids_language",
+        "patterns": ["what are the language requirements for Industrial Innovation and Digital Security", "what are the language requirements for miids","What is the minimum language requirement for Industrial Innovation and Digital Security?", "What is the required language proficiency for Industrial Innovation and Digital Security?", "What is the required language proficiency for Masters in Industrial Innovation and Digital Security?", "What language level do I need for Industrial Innovation and Digital Security?", "What language level do I need for Industrial Innovation and Digital Security?", "Industrial Innovation and Digital Security language requirment?","What language do I need to apply for Industrial Innovation and Digital Security?", "Industrial Innovation and Digital Security language?", "Masters in Industrial Innovation and Digital Security language?"],
+        "responses": [{"program": "MIIDS", "class": "requirements", "field": "language"}],
+        "context": [""]
+        },
+        {"tag": "miseb_language",
+        "patterns": ["what are the language requirements for information security expeience based", "what are the language requirements for mis experience based","What is the minimum language requirement for information security experience based?", "What is the required language proficiency for information security experience based?", "What is the required language proficiency for Masters in information security experience based?", "What language level do I need for miseb?", "What language level do I need for information security experience based?", "miseb language requirment?","What language do I need to apply for miseb?", "miseb language?", "Masters in information security experience based language?"],
+        "responses": [{"program": "MISEB", "class": "requirements", "field": "language"}],
+        "context": [""]
+        },
+        {"tag": "mixd_language",
+        "patterns": ["what are the language requirements for interaction design", "what are the language requirements for mixd","What is the minimum language requirement for interaction design?", "What is the required language proficiency for interaction design?", "What is the required language proficiency for Masters in interaction design?", "What language level do I need for mixd?", "What language level do I need for interaction design?", "mixd language requirment?","What language do I need to apply for mixd?", "mixd language?", "Masters in interaction design language?"],
+        "responses": [{"program": "MIXD", "class": "requirements", "field": "language"}],
+        "context": [""]
+        },
+        {"tag": "mklisp_language",
+        "patterns": ["what are the language requirements for clincal nursing", "what are the language requirements for mkliso","What is the minimum language requirement for Clinical Nursing?", "What is the required language proficiency for Clinical Nursing?", "What is the required language proficiency for Masters in Clinical Nursing?", "What language level do I need for mklisp?", "What language level do I need for Clinical Nursing?", "mklisp language requirment?","What language do I need to apply for mklisp?", "mis language?", "Masters in Clinical Nursing language?"],
+        "responses": [{"program": "MKLISP", "class": "requirements", "field": "language"}],
+        "context": [""]
+        },
+        {"tag": "confused",
+        "patterns": [],
+        "responses": ["Sorry, I'm a bit rusty would you kindly rephrase the question?","Sorry, I can't understand, could you please be more specific?", "I don't understand, please give me more information", "Not sure I understand"],
+        "context": [""]
+        },
+        {"tag": "language_req",
+        "patterns": ["Do I need a toefl?", "Do I need a IETLS?", "is toefl required"],
+        "responses": ["Yes, if you're applying for a program taught in English and are not a native speaker you must prove your English proficiency. The proficency level is pogram specific so please ask if you need more details."],
+        "context": [""]
+        },
+        {"tag": "end",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["Have a lovely day!", "Have a nice one","Good luck!"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure","Hope everything goes well!","You're welcome! Good luck!"],
+         "context": [""]
+        }
+]}

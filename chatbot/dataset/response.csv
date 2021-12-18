@@ -1,0 +1,86 @@
+response,labels
+`Hello there, I'm NTNU bot. How can I help you?`,53
+`Hi, happy to have you here! What can I help you with?`,53
+`Hi, good to see you! How can I help?`,53
+`Hi there, how can I be of service?`,53
+`My Norwegian friend sent me a program he created......call that Norse code.`,17
+`A Norwegian goes to the psychiatrist
+What brings you in today?
+I've just been so depressed. I wish I was never Björn`,17
+`Why did the Norwegian sell her boat?
+She couldn't a-fjord it!`,17
+`How do scientists keep their breath fresh? Experi-mints.`,17
+`Why should you not trust a statistics teacher? They are always trying to plot something.`,17
+`Knock Knock
+Who's there?
+The norwegian currency!`,17
+`NTNU is fun, quite a lot. You get to meet people, a great campus and a table tennis board.`,14
+`At the canteen in G-building every Monday and Thursday.`,13
+`You can find more information regarding housing in the link below
+https://www.ntnu.edu/lifeandhousing/gjovik/housing`,15
+`{"program": "all", "language": "norwegian"}`,50
+`{"program": "all", "language": "norwegian"}`,18
+`NTNU is fun, quite a lot. You get to meet people, a great campus and a table tennis board.`,52
+`I'm NTNU bot I was built to help potential applicats choose their study program.`,16
+`I'm a chat bot built by students to help potential students`,16
+`Thought you would never ask. I'm NTNU bot here to help you make your study program choice.`,16
+`You ever heard of Siri or Google Assistant? I'm a downgraded version of them that can help you make your study program choice here at NTNU.`,16
+`I'm doing great! Thank you for asking, hope everything is fine on your end!`,2
+`I'm a bit rusty but I can be of help. Hope you're also doing well!`,2
+`Thaught you would never ask. I'm NTNU bot here to help you make your study program choice.`,2
+`Here are your contact points: 
+ Addmission Office: addmissions@ntnu.no 
+ International Office: joakim@ntnu.no`,12
+`I can help you find the master program you are looking for.`,51
+`{"program": "all", "language": "english"}`,11
+`{"program": "all"}`,0
+`{"program": "all", "category": "Computer science"}`,1
+`{"program": "all", "category": "design"}`,8
+`{"program": "all", "category": "medical"}`,24
+`{"program": "all", "category": "engineering"}`,10
+`{"program": "MSUMA", "class": "requirements"}`,49
+`{"program": "MIBYGG", "class": "requirements"}`,25
+`{"program": "MKLISP", "class": "requirements"}`,45
+`{"program": "MACS", "class": "requirements"}`,23
+`{"program": "COSI", "class": "requirements"}`,7
+`{"program": "MIS", "class": "requirements"}`,33
+`{"program": "MISEB", "class": "requirements"}`,37
+`{"program": "MIIDS", "class": "requirements"}`,29
+`{"program": "MIXD", "class": "requirements"}`,41
+`{"program": "MACS", "class": "requirements", "field": "grade"}`,20
+`{"program": "MSUMA", "class": "requirements", "field": "grade"}`,46
+`{"program": "COSI", "class": "requirements", "field": "grade"}`,4
+`{"program": "MIS", "class": "requirements", "field": "grade"}`,30
+`{"program": "MIIDS", "class": "requirements", "field": "grade"}`,26
+`{"program": "MISEB", "class": "requirements", "field": "grade"}`,34
+`{"program": "MIXD", "class": "requirements", "field": "grade"}`,38
+`{"program": "MKLISP", "class": "requirements", "field": "grade"}`,42
+`{"program": "MACS", "class": "requirements", "field": "application_link"}`,22
+`{"program": "MSUMA", "class": "requirements", "field": "application_link"}`,48
+`{"program": "COSI", "class": "requirements", "field": "application_link"}`,6
+`{"program": "MIS", "class": "requirements", "field": "application_link"}`,32
+`{"program": "MIIDS", "class": "requirements", "field": "application_link"}`,28
+`{"program": "MISEB", "class": "requirements", "field": "application_link"}`,36
+`{"program": "MIXD", "class": "requirements", "field": "application_link"}`,40
+`{"program": "MKLISP", "class": "requirements", "field": "application_link"}`,44
+`{"program": "MACS", "class": "requirements", "field": "language"}`,21
+`{"program": "MSUMA", "class": "requirements", "field": "language"}`,47
+`{"program": "COSI", "class": "requirements", "field": "language"}`,5
+`{"program": "MIS", "class": "requirements", "field": "language"}`,31
+`{"program": "MIIDS", "class": "requirements", "field": "language"}`,27
+`{"program": "MISEB", "class": "requirements", "field": "language"}`,35
+`{"program": "MIXD", "class": "requirements", "field": "language"}`,39
+`{"program": "MKLISP", "class": "requirements", "field": "language"}`,43
+`Sorry, I"m a bit rusty would you kindly rephrase the question?`,3
+`Sorry, I can"t understand, could you please be more specific?`,3
+`I don't understand, please give me more information`,3
+Not sure I understand,3
+`Yes, if you're applying for a program taught in English and are not a native speaker you must prove your English proficiency. The proficency level is pogram specific so please ask if you need more details.`,19
+Have a lovely day!,9
+Have a nice one,9
+Good luck!,9
+Happy to help!,54
+Any time!,54
+My pleasure,54
+Hope everything goes well!,54
+You're welcome! Good luck!,54

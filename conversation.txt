@@ -1,0 +1,283 @@
+
+Q:hello there
+A:Hello there, I'm NTNU bot. How can I help you?
+Q: Tell me a joke
+A: Knock Knock
+Who's there?
+The norwegian currency!
+Q: how can I apply for computer science
+A: Here is the application link for the program: https://www.ntnu.edu/studies/macs/admission
+Q: what do i need for sustainable manufacturing
+A: These are the general requirements for MSUMA: You have to apply by: Non-EU/non-EEA students: 1 December 2021 \n EU/EEA students: 1 March 2022 \n Norwegian/Nordic students: 15 April 2022
+                 language: TOEFL: 90 \n IELTS: 6.5 \n PTE: 62
+                 grades: C
+ 
+Q: what do i need for COSI
+A: These are the general requirements for COSI: You have to apply by: 10 January 2022
+                 language: TOEFL: 90\n IELTS: 6.5\n PTE: 62
+                 grades: N/A
+ 
+Q: where can I get housing 
+A: You can find more information regarding housing in the link below
+https://www.ntnu.edu/lifeandhousing/gjovik/housing
+Q: where can I get free food
+A: At the canteen in G-building every Monday and Thursday.
+Q: what about sports
+A: NTNU is fun, quite a lot. You get to meet people, a great campus and a table tennis board.
+Q: are there any sports
+A: NTNU is fun, quite a lot. You get to meet people, a great campus and a table tennis board.
+Q: are there any sport
+A: NTNU is fun, quite a lot. You get to meet people, a great campus and a table tennis board.
+Q: can I play any sports
+A: NTNU is fun, quite a lot. You get to meet people, a great campus and a table tennis board.
+Q: how do I apply for nursing
+A: Here is the application link for the program: https://www.ntnu.edu/studies/mklisp/admission
+Q: Hi, what’s your name?
+A: Hello there, I'm NTNU bot. How can I help you?
+Q: why are you
+A: You ever heard of Siri or Google Assistant? I'm a downgraded version of them that can help you make your study program choice here at NTNU.
+Q: Hi, how old are you?
+A: Thaught you would never ask. I'm NTNU bot here to help you make your study program choice.
+Q: Hi, how do you look?
+A: Thaught you would never ask. I'm NTNU bot here to help you make your study program choice.
+Q: Hi, how do you look? Send me pics
+A: I'm doing great! Thank you for asking, hope everything is fine on your end!
+Q: Hey are done with the report ?
+A: Sorry, I"m a bit rusty would you kindly rephrase the question?
+Q: Thanks that’s nice to hear
+A: Sorry, I can"t understand, could you please be more specific?
+Q: Thanks that’s nice to hear from you
+A: You ever heard of Siri or Google Assistant? I'm a downgraded version of them that can help you make your study program choice here at NTNU.
+Q: 
+Q: I am waiting to play south Indian movie 🙄
+A: Here are your contact points: 
+ Addmission Office: addmissions@ntnu.no 
+ International Office: joakim@ntnu.no
+Q: I know what I want to study, what now?
+A: I found the following results:
+2 -> MIBYGG: Masters in Civil and Environmental Engineering 
+3 -> MKLISP: Masters in Clinical Nursing
+5 -> MIIDS: Master of Industrial Innovation and Digital Security
+
+Please pick the numeric code to know more about the course
+Q: who are you
+A: I'm NTNU bot I was built to help potential applicats choose their study program.
+Q: what can you do
+A: I can help you find the master program you are looking for.
+Q: what are the available programs 
+A: I found the following results:
+1 -> MACS: Masters in Applied Computer Science
+2 -> MIBYGG: Masters in Civil and Environmental Engineering 
+3 -> MKLISP: Masters in Clinical Nursing
+4 -> COSI: Masters in Computational Colour and Spectral Imaging
+5 -> MIIDS: Master of Industrial Innovation and Digital Security
+6 -> MISEB: Masters in Information Security
+7 -> MIXD: Masters in Interaction Design
+8 -> MSUMA: Masters in Sustainable Manufacturing
+9 -> MIS: Masters in Information Security
+
+Please pick the numeric code to know more about the course
+Q: How can I get into nursing?
+A: Here is the application link for the program: https://www.ntnu.edu/studies/mklisp/admission
+Q: How can I get into nursing?
+A: Here is the application link for the program: https://www.ntnu.edu/studies/mklisp/admission
+Q: How much will I earn as a nurse in Norway?
+A: I found the following results:
+2 -> MIBYGG: Masters in Civil and Environmental Engineering 
+3 -> MKLISP: Masters in Clinical Nursing
+5 -> MIIDS: Master of Industrial Innovation and Digital Security
+
+Please pick the numeric code to know more about the course
+Q: 
+Q: How do I have to pay tax?
+A: I found the following results:
+1 -> MACS: Masters in Applied Computer Science
+4 -> COSI: Masters in Computational Colour and Spectral Imaging
+6 -> MISEB: Masters in Information Security
+7 -> MIXD: Masters in Interaction Design
+
+Please pick the numeric code to know more about the course
+Q: What documents do I need for the application?
+A: I found the following results:
+2 -> MIBYGG: Masters in Civil and Environmental Engineering 
+3 -> MKLISP: Masters in Clinical Nursing
+5 -> MIIDS: Master of Industrial Innovation and Digital Security
+
+Please pick the numeric code to know more about the course
+Q: What documents for the application?
+A: I found the following results:
+2 -> MIBYGG: Masters in Civil and Environmental Engineering 
+3 -> MKLISP: Masters in Clinical Nursing
+5 -> MIIDS: Master of Industrial Innovation and Digital Security
+
+Please pick the numeric code to know more about the course
+Q: What’s innovative about industry?
+A: Not sure I understand
+Q: What did you not understand?
+A: I can help you find the master program you are looking for.
+Q: Just wanted to know about the innovation
+A: Yes, if you're applying for a program taught in English and are not a native speaker you must prove your English proficiency. The proficency level is pogram specific so please ask if you need more details.
+Q: Don’t you think that my English is good enough?
+A: Hi, happy to have you here! What can I help you with?
+Q: Ayayay
+A: Sorry, I couldn't find any programs!
+Q: Which Programms would you suggest?
+A: I can help you find the master program you are looking for.
+Q: Exchange student 
+A: Sorry, I couldn't find any programs!
+Q: English speaking masters  
+A: I found the following results:
+1 -> MACS: Masters in Applied Computer Science
+4 -> COSI: Masters in Computational Colour and Spectral Imaging
+6 -> MISEB: Masters in Information Security
+7 -> MIXD: Masters in Interaction Design
+
+Please pick the numeric code to know more about the course
+Q: How to apply for Interaction Design? 
+A: Here is the application link for the program: https://www.ntnu.edu/studies/mixd/admission
+Q: Thanks for the link, that helped a lot
+A: Here is the application link for the program: https://www.ntnu.edu/studies/mixd/admission
+Q: Bye
+A: Good luck!
+Q: Thanks
+A: Happy to help!
+Q: Ok
+A: Sorry, I couldn't find any programs!
+Q: Tell me where to live 
+A: I found the following results:
+2 -> MIBYGG: Masters in Civil and Environmental Engineering 
+3 -> MKLISP: Masters in Clinical Nursing
+5 -> MIIDS: Master of Industrial Innovation and Digital Security
+
+Please pick the numeric code to know more about the course
+Q: Accommodate 
+A: Sorry, I couldn't find any programs!
+Q: Accommodation
+A: Sorry, I couldn't find any programs!
+Q: Housing
+A: You can find more information regarding housing in the link below
+https://www.ntnu.edu/lifeandhousing/gjovik/housing
+Q: Rooms
+A: Sorry, I couldn't find any programs!
+Q: 
+Q: hello
+A: 
+Hello, I am a chatbot built for NTNU.you can ask me general questions like: 
+What can you do? 
+What courses are available in NTNU?
+Q: what are the programs in english
+A: I found the following results:
+1 -> MACS: Masters in Applied Computer Science
+4 -> COSI: Masters in Computational Colour and Spectral Imaging
+6 -> MISEB: Masters in Information Security
+7 -> MIXD: Masters in Interaction Design
+
+Please pick the numeric code to know more about the course
+Q: Hey, what do you think. MCU or DC ? Which is the best ? 
+A: I found the following results:
+2 -> MIBYGG: Masters in Civil and Environmental Engineering 
+3 -> MKLISP: Masters in Clinical Nursing
+5 -> MIIDS: Master of Industrial Innovation and Digital Security
+
+Please pick the numeric code to know more about the course
+Q: Why is this partial lockdown is going on ?  
+A: These are the general requirements for MIIDS: You have to apply by: 15th April 2022
+                 language: Norwegian
+                 grades: C
+ 
+Q: Why is this partial lockdown is going on ? Does it make any sense ?? 
+A: I found the following results:
+2 -> MIBYGG: Masters in Civil and Environmental Engineering 
+3 -> MKLISP: Masters in Clinical Nursing
+5 -> MIIDS: Master of Industrial Innovation and Digital Security
+
+Please pick the numeric code to know more about the course
+Q: How is the josh ?  
+A: I found the following results:
+7 -> MIXD: Masters in Interaction Design
+
+Please pick the numeric code to know more about the course
+Q:  
+A: Sorry, I couldn't find any programs!
+Q: Hey, when I enter over phone I have to delete the words first, don’t like that
+A: Hi, happy to have you here! What can I help you with?
+Q: What’s your name?
+A: Sorry, I couldn't find any programs!
+Q: What do you do!
+A: I can help you find the master program you are looking for.
+Q: Nice thanks
+A: Any time!
+Q: So, how do I apply?
+A: Here is the application link for the program: https://www.ntnu.edu/studies/mixd/admission
+Q: Nursing
+A: Not sure I understand
+Q: IT
+A: Sorry, I couldn't find any programs!
+Q: Health
+A: Sorry, I couldn't find any programs!
+Q: Interaction Design 
+A: I found the following results:
+7 -> MIXD: Masters in Interaction Design
+
+Please pick the numeric code to know more about the course
+Q: Masters
+A: These are the general requirements for MIS: You have to apply by: Non-EU/non-EEA students: 1 December 2021 \n EU/EEA students: 1 March 2022 \n Norwegian/Nordic students: 15 April 2022
+                 language: Norwegian or TOEFL: 90 \n IELTS: 6.5 \n PTE: 62
+                 grades: C
+ 
+Q: Master programms
+A: These are the general requirements for MIS: You have to apply by: Non-EU/non-EEA students: 1 December 2021 \n EU/EEA students: 1 March 2022 \n Norwegian/Nordic students: 15 April 2022
+                 language: Norwegian or TOEFL: 90 \n IELTS: 6.5 \n PTE: 62
+                 grades: C
+ 
+Q: Which Master programms
+A: These are the general requirements for MIS: You have to apply by: Non-EU/non-EEA students: 1 December 2021 \n EU/EEA students: 1 March 2022 \n Norwegian/Nordic students: 15 April 2022
+                 language: Norwegian or TOEFL: 90 \n IELTS: 6.5 \n PTE: 62
+                 grades: C
+ 
+Q: Which Master programs
+A: I don't understand, please give me more information
+Q: Sorry mistyped program two times
+A: Sorry, I"m a bit rusty would you kindly rephrase the question?
+Q: Which master programs are there?
+A: These are the general requirements for MIXD: You have to apply by: Non-EU/non-EEA students: 1 December 2021 \n EU/EEA students: 1 March 2022 \n Norwegian/Nordic students: 15 April 2022
+                 language: TOEFL: 90 \n IELTS: 6.5 \n PTE: 62
+                 grades: C
+ 
+Q: Not the requirements. I want the different types of studies offered by NTNU please
+A: These are the general requirements for MIBYGG: You have to apply by: 15th April 2022
+                 language: Norwegian
+                 grades: C
+ 
+Q: Programs without norwegian
+A: I found the following results:
+2 -> MIBYGG: Masters in Civil and Environmental Engineering 
+3 -> MKLISP: Masters in Clinical Nursing
+5 -> MIIDS: Master of Industrial Innovation and Digital Security
+
+Please pick the numeric code to know more about the course
+Q: Do I need to understand Norwegian in order to study?
+A: Sorry, I can"t understand, could you please be more specific?
+Q: Application deadlines
+A: I found the following results:
+2 -> MIBYGG: Masters in Civil and Environmental Engineering 
+3 -> MKLISP: Masters in Clinical Nursing
+5 -> MIIDS: Master of Industrial Innovation and Digital Security
+
+Please pick the numeric code to know more about the course
+Q: How are you?
+A: I'm a chat bot built by students to help potential students
+Q: Who are the students that build you?
+A: I'm NTNU bot I was built to help potential applicats choose their study program.
+Q: Am I a potential applicant?
+A: Sorry, I couldn't find any programs!
+Q: Which programs 
+A: I don't understand, please give me more information
+Q: Which study programs 
+A: I don't understand, please give me more information
+Q: Master programs 
+A: I don't understand, please give me more information
+Q: How can I find a place to live in Norway?
+A: Here is the application link for the program: https://www.ntnu.edu/studies/mixd/admission
+Q: Suggestions for accommodation 
+A: Sorry, I"m a bit rusty would you kindly rephrase the question?
